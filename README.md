@@ -1,9 +1,9 @@
 # ToDoList_Application
 Packages to install before running this Project:
-  1. Install this packages in the ToDoApp.Android
+  1. Install this packages in the ToDoApp.Android:
       Xamarin.forms
       Xamarin.Essentials
-  2. Install this packages in the ToDoApp
+  2. Install this packages in the ToDoApp:
       NETStandard.Libraray v2.0.3
       Xamarin.forms
       Xamarin.Essentials
