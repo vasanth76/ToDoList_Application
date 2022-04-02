@@ -1,0 +1,15 @@
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.deps.json
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.dll
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ref\ToDoApp.dll
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\bin\Debug\netstandard2.0\ToDoApp.pdb
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csproj.AssemblyReference.cache
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfoInputs.cache
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.AssemblyInfo.cs
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.dll
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ref\ToDoApp.dll
+C:\Users\vasan\source\repos\ToDoApp\ToDoApp\ToDoApp\obj\Debug\netstandard2.0\ToDoApp.pdb

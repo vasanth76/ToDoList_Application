@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ToDoApp"
+             x:Class="ToDoApp.MainPage">
+    
+    <ContentPage.BindingContext>
+        <local:TodoListViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="ToDoList" HorizontalTextAlignment="Center"
+                   TextColor="White" FontAttributes="Bold"
+                   
+                   FontSize="50"
+                   />
+        </Frame>
+        <Entry 
+            x:Name="TodoInput" 
+            Text="{Binding NewTodoTitleValue}" 
+            Placeholder="Title" 
+            ReturnCommand="{Binding AddTodoCommand}"
+            />
+        <Entry 
+            x:Name="Description" 
+            Text="{Binding NewTodoDesValue}" 
+            Placeholder="Description"
+            ReturnCommand="{Binding AddTodoCommand}"
+            />
+        <Button Text="ADD" BackgroundColor="#2196F3" TextColor="White" 
+                FontSize="36" CornerRadius="100" 
+                Command="{Binding Path=BindingContext.AddTodoCommand, Source={x:Reference TodoList}}"
+                CommandParameter="{Binding .}"
+                />
+
+        <ListView x:Name="TodoList" ItemsSource="{Binding TodoItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center" Padding="20,0">
+                            <CheckBox Color="#2196F3"/>
+                            <StackLayout FlexLayout.Grow="1" Padding="10,0,0,0">
+                                <Label 
+                                Text="{Binding TodoTitle}" 
+                                VerticalTextAlignment="Start"
+                                FontSize="20"
+                                />
+                                <Label 
+                                Text="{Binding TodoDes}"
+                                FontSize="Small"
+                                />
+                            </StackLayout>
+                            <Button
+                                Text="Edit" Scale="0.6"
+                                BackgroundColor="#2196F3"
+                                TextColor="White"
+                                CornerRadius="500"
+                                
+                                Command="{Binding Path=BindingContext.EditTodoCommand, Source={x:Reference TodoList}}"
+                                CommandParameter="{Binding .}"
+                                />
+                            <ImageButton 
+                                Source="delete.png" Scale="0.6" 
+                                BackgroundColor="Transparent"
+                                Command="{Binding Path=BindingContext.RemoveTodoCommand, Source={x:Reference TodoList}}"
+                                CommandParameter="{Binding .}"
+                                />
+                        </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </StackLayout>
+    
+</ContentPage>
